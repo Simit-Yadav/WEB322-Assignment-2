@@ -1,0 +1,77 @@
+<main>
+    <section id="hero-section">
+        <div id="hero-content">
+            <h1>Try With us!</h1>
+            <h3>Canada's fastest food delivery</h3>
+            <p>We are Canada's fastest growing and food delivering company. Don't trust us have ask from our people and
+                see reviews. We care for you and your family and to deliver fastest food to your family with all
+                nutritions needed. Select your meals according to your age and live long. Hope you stay safe in this
+                pandemic.</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="features-top">
+            <h1>HOW ITS DONE!</h1>
+            <a href=""><input type="button" value="Watch a Video"></a>
+        </div>
+
+        <div class="features-section">
+
+            <div>
+                <div class="images">
+                    <img src="/IMAGES/photo1.jpg" alt="First Image">
+                </div>
+                <h1>We create original recipes.</h1>
+                <p>Our in-house culinary team uses premium ingredients to create unique menus and products for
+                    breakfast, lunch, and
+                    dinner. </p>
+            </div>
+
+            <div>
+                <div class="images">
+                    <img src="/IMAGES/photo2.jpg" alt="Second Image">
+                </div>
+                <h1>You choose your preferences.</h1>
+                <p>Choose from a variety of healthy, delicious meals each week that accomodate your dietary preferences.
+                </p>
+            </div>
+
+            <div>
+                <div class="images">
+                    <img src="/IMAGES/photo3.jpg" alt="Third Image">
+                </div>
+                <h1>We deliver weekly — for free.</h1>
+                <p>Your ingredients are packaged in our temperature-conditioned boxes, so food stays fresh - even when
+                    you aren't at home.</p>
+            </div>
+
+            <div>
+                <div class="images">
+                    <img src="/IMAGES/photo4.jpg" alt="Fourth Image">
+                </div>
+                <h1>You eat incredible meals every day.</h1>
+                <p>From a one-minute weekday breakfast to a delicious two-course dinner made with your own hands, our
+                    recipes cater to all
+                    cooking levels and styles. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="top-meals">
+
+        <div>
+            <h1>TOP MEALS OF THE WEEK</h1>
+        </div>
+
+        <div>
+            <a href=""><input type="button" value="&lt"></a>
+            <div class="top-meal-content">
+                {{#each topMeal}}
+                {{>mealDisplay this}}
+                {{/each}}
+            </div>
+            <a href=""><input type="button" value="&gt"></a>
+        </div>
+    </section>
+</main>

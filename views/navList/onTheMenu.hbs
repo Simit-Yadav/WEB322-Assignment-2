@@ -1,0 +1,19 @@
+<section class="onTheMenu">
+    <div>
+        <p style="font-size: 2rem;">Classic Meals</p>
+    </div>
+    <div class="onTheMenuList">
+        {{#each data1}}
+        {{>mealDisplay this}}
+        {{/each}}
+    </div>
+
+    <div style="margin-top: 2rem;">
+        <p style="font-size: 2rem;">Popular Meals</p>
+    </div>
+    <div class=" onTheMenuList">
+        {{#each data2}}
+        {{>mealDisplay this}}
+        {{/each}}
+    </div>
+</section>
